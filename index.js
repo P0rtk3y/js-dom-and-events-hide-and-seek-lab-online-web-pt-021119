@@ -3,11 +3,11 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget() {
-  return document.querySelector( '#nested .target' )
+  return document.querySelector('#nested .target')
 }
 
 function increaseRankBy(n) {
-  const rankedLists = document.querySelectorAll( '.ranked-list' )
+  const rankedLists = document.querySelectorAll('.ranked-list')
 
   for ( let i = 0, l = rankedLists.length; i < l; i++ ) {
     let children = rankedLists[ i ].children
